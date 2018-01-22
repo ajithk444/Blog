@@ -158,6 +158,7 @@ namespace Blogen.Controllers
         [HttpPost]
         public ActionResult Edit(ArticleViewModel model)
         {
+            //edit 
             if (ModelState.IsValid)
             {
                 using (var db = new BlogDbContext())
